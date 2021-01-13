@@ -7,7 +7,7 @@ export const SidebarContainer = styled.aside`
     z-index: 999;
     width: 350px;
     height: 100%;
-    background:  #BE2664;
+    background:  #0d0909;
     display: grid;
     align-items: center;
     top: 0;
@@ -18,13 +18,12 @@ export const SidebarContainer = styled.aside`
         width: 100%;
     }
 `
-
 export const CloseIcon = styled(FaTimes)`
-    color: #fff;
+    color: #BE2664;
     transform: 0.2s ease-in-out;
 
     &:hover{
-        color: #000;
+        color: #fff;
         
     }
 `
@@ -59,11 +58,11 @@ export const SidebarLink = styled(Link)`
     text-decoration: none;
     list-style: none;
     transition: 0.2s ease-in-out;
-    color: #fff;
+    color: #BE2664;
     cursor: pointer;
 
     &:hover{
-        color: #000;
+        color: #fff;
         transition: 0.2s ease-in-out;
     }
 `
@@ -88,7 +87,7 @@ export const SidebarRoute = styled(Link)`
 
     &:hover{
         transition: 0.2s ease-in-out;
-        background: #000;
-        color: #fff;
+        background: #BE2664;
+        color: #000;
     }
 `
