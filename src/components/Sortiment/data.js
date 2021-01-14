@@ -16,8 +16,8 @@ export const sortimentData = [
   },
   {
     img: stäuße,
-    alt: 'Stäuße & Gestecke',
-    name: 'Stäuße & Gestecke',
+    alt: 'Stäuße',
+    name: 'Stäuße',
     desc:
       ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
     button: 'Weiter'
