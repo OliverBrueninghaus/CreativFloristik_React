@@ -15,20 +15,17 @@ export const TeamWrapper = styled.div`
 `;
 
 export const TeamCard = styled.div`
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 1.1rem;
     margin: 13px;
-    line-height: 1.7;
     width: 400px;
     border: 2px solid #ebebeb;
 `;
 
 export const TeamImg = styled.img`
-    height: 403.2px;
-    min-width: 302.4px;
+    height: 483.84px;
+    min-width: 362.88px;
     max-width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
 `;
 
 export const TeamHeading = styled.h1`
@@ -39,5 +36,8 @@ export const TeamHeading = styled.h1`
 
 export const TeamName = styled.h2`
   font-weight: 500;
+  margin-top: 10px;
   font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
 `;

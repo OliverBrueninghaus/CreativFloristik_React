@@ -1,12 +1,8 @@
-import hochzeit from '../../images/hochzeit.jpeg';
+import kontaktImg from '../../images/kontakt_img.jpg'
 
 export const kontaktData = [
     {
-        img: hochzeit,
-        alt: 'Hochzeit & Feiern',
-        name: 'Hochzeit & Feiern',
-        desc:
-          'An solchen Tagen darf der richtige Blumenschmuck natürlich nicht fehlen.',
-        button: 'Weiter'
-      },
-]
+        img: kontaktImg,
+        alt: "hallo"
+    }
+];
