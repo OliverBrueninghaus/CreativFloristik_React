@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
 export const TeamContainer = styled.div`
-  min-height: 100vh;
   padding: 5rem calc((100vw - 1300px) / 2);
   background: #fff;
   color: #212121;
+  background-color: #F4F4F4;
 `;
 
 export const TeamWrapper = styled.div`
@@ -18,7 +18,6 @@ export const TeamCard = styled.div`
     padding: 1.1rem;
     margin: 13px;
     width: 400px;
-    border: 2px solid #ebebeb;
 `;
 
 export const TeamImg = styled.img`

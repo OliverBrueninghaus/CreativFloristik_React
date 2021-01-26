@@ -33,7 +33,7 @@ export const NavIcon = styled.div`
     top: 0;
     right: 0;
     cursor: pointer;
-    color:#0d0909;
+    color:#000;
     p{
         transform: translate(-175%, 100%);
         font-weight: bold;

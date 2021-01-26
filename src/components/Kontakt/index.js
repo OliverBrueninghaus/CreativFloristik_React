@@ -12,6 +12,7 @@ import {
 
 const Kontakt = ({ heading, data }) => {
   return (
+    <div id="kontakt">
     <KontaktContainer>
       <KontaktHeading>{heading}</KontaktHeading>
       <KontaktWrapper>
@@ -49,6 +50,7 @@ const Kontakt = ({ heading, data }) => {
         </KontaktCard>
       </KontaktWrapper>
     </KontaktContainer>
+    </div>
   );
 };
 

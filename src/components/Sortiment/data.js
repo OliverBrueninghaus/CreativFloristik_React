@@ -19,7 +19,7 @@ export const sortimentData = [
     alt: 'Stäuße',
     name: 'Stäuße',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
+      'Vorort für Sie gestaltete Sträuße warten auf Sie!',
     button: 'Weiter'
   },
   {
@@ -27,7 +27,7 @@ export const sortimentData = [
     alt: 'Trauer',
     name: 'Trauer',
     desc:
-      'Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
+      'Auch in schweren Zeiten sind wir für Sie da.',
     button: 'Weiter'
   },
   {
@@ -35,7 +35,7 @@ export const sortimentData = [
     alt: 'Workshops',
     name: 'Workshops',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
+      'Regelmäßig führen wir unsere Workshops durch. Anmeldung erfolgt bei uns im Laden',
     button: 'Weiter'
   },
   {
@@ -43,7 +43,7 @@ export const sortimentData = [
     alt: 'Geschenkideen',
     name: 'Geschenkideen',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
+      'Auch kleine mitbringsel, geschenke, liköre, Kerzen und einiges mehr gibt es bei uns.',
     button: 'Weiter'
   },
   {
@@ -51,7 +51,7 @@ export const sortimentData = [
     alt: 'Gestecke',
     name: 'Gestecke',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
+      'Aufwändige und von hand gestaltete Gestecke können sie bestellen oder bei uns im laden sehen. ',
     button: 'Weiter'
   },
 ];

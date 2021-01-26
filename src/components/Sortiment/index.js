@@ -3,6 +3,7 @@ import {SortimentContainer, SortimentHeading, SortimentWrapper, SortimentCard, S
 
 const Sortiment = ({heading, data}) => {
     return (
+        <div id='sortiment'>
         <SortimentContainer>
             <SortimentHeading>{heading}</SortimentHeading>
             <SortimentWrapper>
@@ -20,6 +21,7 @@ const Sortiment = ({heading, data}) => {
                 })}
             </SortimentWrapper>
         </SortimentContainer>
+        </div>
     )
 }
 

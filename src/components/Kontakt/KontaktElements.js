@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const KontaktContainer = styled.div`
   background: #fff;
   color: #212121;
+  padding: 5rem calc((100vw - 1300px) / 2);
+  background-color: #fff;
 `;
 export const KontaktHeading = styled.h1`
   font-size: clamp(2rem, 2.5vw, 3rem);
@@ -14,11 +16,12 @@ export const KontaktWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: lightgray;
 `;
 
 export const KontaktCard = styled.div`
   width: 600px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 `;
 
 export const KontaktInhalt = styled.div`
@@ -35,6 +38,10 @@ export const KontaktImg = styled.img`
   margin-right: auto;
   border-radius: 0.8rem;
   text-align: center;
+
+  @media screen and (max-width: 1199px){
+    display: none;
+  }
 `;
 
 export const KontaktUeberschrift = styled.h1`
