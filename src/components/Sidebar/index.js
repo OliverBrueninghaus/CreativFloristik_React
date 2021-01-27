@@ -14,13 +14,27 @@ const Sidebar = ({ isOpen, toggle }) => {
         <CloseIcon />
       </Icon>
       <SidebarMenu>
-        <a href="/">Home</a>
-        <a href="#sortiment">Unser Sortiment</a>
-        <a href="/team">Gallerie</a>
-        <a href="#team">Unser Team</a>
-        <a href="#kontakt">Kontakt</a>
-        <a href="/datenschutz">Datenschutz</a>
-        <a href="/impressum">Impressum</a>
+        <SidebarLink>
+          <a href="/">Home</a>
+        </SidebarLink>
+        <SidebarLink>
+          <a href="#sortiment">Unser Sortiment</a>
+        </SidebarLink>
+        <SidebarLink>
+          <a href="/gallerie">Gallerie</a>
+        </SidebarLink>
+        <SidebarLink>
+          <a href="#team">Unser Team</a>
+        </SidebarLink>
+        <SidebarLink>
+          <a href="#kontakt">Kontakt</a>
+        </SidebarLink>
+        <SidebarLink>
+          <a href="/datenschutz">Datenschutz</a>
+        </SidebarLink>
+        <SidebarLink>
+          <a href="/impressum">Impressum</a>
+        </SidebarLink>
       </SidebarMenu>
     </SidebarContainer>
   );

@@ -1,5 +1,5 @@
 import React from 'react'
-import {SortimentContainer, SortimentHeading, SortimentWrapper, SortimentCard, SortimentImg, SortimentInfo, SortimentTitle, SortimentDesc, SortimentBtn} from './SortimentElements';
+import {SortimentContainer, SortimentHeading, SortimentWrapper, SortimentCard, SortimentImg, SortimentInfo, SortimentTitle, SortimentDesc} from './SortimentElements';
 
 const Sortiment = ({heading, data}) => {
     return (
@@ -14,7 +14,6 @@ const Sortiment = ({heading, data}) => {
                         <SortimentInfo>
                             <SortimentTitle>{sortiment.name}</SortimentTitle>
                             <SortimentDesc>{sortiment.desc}</SortimentDesc>
-                            <SortimentBtn>{sortiment.button}</SortimentBtn>
                         </SortimentInfo>
                     </SortimentCard>
                     );

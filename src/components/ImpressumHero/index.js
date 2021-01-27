@@ -20,6 +20,7 @@ const ImpressumHero = () => {
                  <HeroH1>Impressum</HeroH1>
              </HeroItems>
             </HeroContent>
+            <p>hihi</p>
         </HeroContainer>
     );
 };

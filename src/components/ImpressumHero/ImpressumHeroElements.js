@@ -4,7 +4,7 @@ import ImgBg from "../../images/bild3.jpg";
 export const HeroContainer = styled.div`
   background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),
     url(${ImgBg});
-  height: 50vh;
+  height: 60vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

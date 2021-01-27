@@ -11,7 +11,7 @@ export const sortimentData = [
     alt: 'Hochzeit & Feiern',
     name: 'Hochzeit & Feiern',
     desc:
-      'An solchen Tagen darf der richtige Blumenschmuck natürlich nicht fehlen.',
+      'An solchen Tagen darf der richtige Blumenschmuck natürlich nicht fehlen. Wir gestalten Ihre Hochzeit individeuell nach ihrem Geschmack.',
     button: 'Weiter'
   },
   {
@@ -27,7 +27,7 @@ export const sortimentData = [
     alt: 'Trauer',
     name: 'Trauer',
     desc:
-      'Auch in schweren Zeiten sind wir für Sie da.',
+      'Auch in schweren Zeiten sind wir für Sie da. Wir gestalten stilvolle Arangements für Trauerferiern, Todes- und Gedenktage.',
     button: 'Weiter'
   },
   {
@@ -35,7 +35,7 @@ export const sortimentData = [
     alt: 'Workshops',
     name: 'Workshops',
     desc:
-      'Regelmäßig führen wir unsere Workshops durch. Anmeldung erfolgt bei uns im Laden',
+      'Bei den Workshops wird immer nach gegebenen Anlässen ein Thema vorgestellt. Wir helfen Ihnen eigenständig ein schönes florales Werkstück herzustellen. Regelmäßig führen wir unsere Workshops durch. Anmeldung erfolgt bei uns im Laden.',
     button: 'Weiter'
   },
   {

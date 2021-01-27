@@ -19,7 +19,9 @@ const Hero = () => {
              <HeroItems>
                  <HeroH1>Willkommen</HeroH1>
                  <HeroP>Wir freuen uns auf Ihren Besuch!</HeroP>
-                 <HeroBtn>Öffnungszeiten</HeroBtn>
+                 <HeroBtn>
+                   <a href="#kontakt">Öffnungszeiten</a>
+                 </HeroBtn>
              </HeroItems>
             </HeroContent>
         </HeroContainer>

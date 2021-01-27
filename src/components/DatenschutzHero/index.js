@@ -20,7 +20,7 @@ const DatenschutzHero = () => {
                  <HeroH1>Datenschutz</HeroH1>
              </HeroItems>
             </HeroContent>
-        </HeroContainer>
+            </HeroContainer>
     );
 };
 

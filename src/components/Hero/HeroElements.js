@@ -60,23 +60,27 @@ export const HeroBtn = styled.button`
   font-size: 1.4rem;
   padding: 1rem 4rem;
   border: none;
+  text-decoration:none;
   background: #BE2664;
   color: #fff;
   transition: 0.2s ease-out;
-
-  &:hover {
+  a:hover {
     background-color:rgba(190,38,100, 0.8);
     transition: 0.2s ease-out;
     cursor: pointer;
     color: #fff;
-  }
-  &::visited{
     text-decoration:none;
   }
-  &:link{
+  a:visited{
     text-decoration:none;
+    color: #fff;
   }
-  &:active{
+  a:link{
     text-decoration:none;
+    color: #fff;
+  }
+  a:active{
+    text-decoration:none;
+    color: #fff;
   }
 `;
