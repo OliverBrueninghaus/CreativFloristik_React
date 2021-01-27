@@ -1,19 +1,28 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Datenschutz from "./pages/Datenschutz/index";
 import Impressum from "./pages/Impressum/index";
 import Home from "./pages/Home/index";
 
+import { GlobalStyle } from "./globalStyles";
+
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
+     <GlobalStyle/>
       <Switch>
-        <Route path="/" exact component={Home}></Route>
-        <Route path="/datenschutz" component={Datenschutz}></Route>
-        <Route path="/impressum" component={Impressum}></Route>
+        <Route exact path="/" >
+          <Home/>
+        </Route>
+        <Route path="/datenschutz">
+          <Datenschutz/>
+        </Route>
+        <Route path="/impressum">
+          <Impressum/>
+        </Route>
       </Switch>
-    </Router>
+    </BrowserRouter>
   );
 }
 

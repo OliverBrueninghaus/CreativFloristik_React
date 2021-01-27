@@ -10,19 +10,21 @@ import {
 
 const Team = ({ heading, data }) => {
   return (
-    <TeamContainer>
-      <TeamHeading>{heading}</TeamHeading>
-      <TeamWrapper>
-        {data.map((team, index) => {
-          return (
-            <TeamCard key={index}>
-              <TeamImg src={team.img} alt={team.alt} />
-              <TeamName>{team.name}</TeamName>
-            </TeamCard>
-          );
-        })}
-      </TeamWrapper>
-    </TeamContainer>
+    <div id="team">
+      <TeamContainer>
+        <TeamHeading>{heading}</TeamHeading>
+        <TeamWrapper>
+          {data.map((team, index) => {
+            return (
+              <TeamCard key={index}>
+                <TeamImg src={team.img} alt={team.alt} />
+                <TeamName>{team.name}</TeamName>
+              </TeamCard>
+            );
+          })}
+        </TeamWrapper>
+      </TeamContainer>
+    </div>
   );
 };
 

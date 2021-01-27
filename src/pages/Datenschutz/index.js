@@ -1,11 +1,14 @@
 import React from "react";
-import Footer from "../../components/Footer";
+import { BrowserRouter } from "react-router-dom";
+
+import DatenschutzHero from "../../components/DatenschutzHero";
 
 function Datenschutz() {
   return (
-    <h1>Datenschutz</h1>,
-    <Footer />
-    );
+    <BrowserRouter>
+      <DatenschutzHero/>,
+    </BrowserRouter>
+  );
 }
 
 export default Datenschutz;

@@ -1,12 +1,13 @@
-import {React, Router} from "react";
-import Footer from "../../components/Footer";
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+
+import ImpressumHero from "../../components/ImpressumHero";
 
 function Impressum() {
   return (
-    <div>
-      <h1>jijij</h1>
-    </div>,
-    <Footer />
+    <BrowserRouter>
+      <ImpressumHero/>,
+    </BrowserRouter>
   );
 }
 

@@ -14,20 +14,13 @@ const Sidebar = ({ isOpen, toggle }) => {
         <CloseIcon />
       </Icon>
       <SidebarMenu>
-        <SidebarLink to="/">Home</SidebarLink>
-        <SidebarLink
-                activeClass="active"
-                to="sortiment"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Section 1
-              </SidebarLink>
-        <SidebarLink to="/team">Unser Team</SidebarLink>
-        <SidebarLink to="/">Gallerie</SidebarLink>
-        <SidebarLink to="/kontakt">Kontakt</SidebarLink>
+        <a href="/">Home</a>
+        <a href="#sortiment">Unser Sortiment</a>
+        <a href="/team">Gallerie</a>
+        <a href="#team">Unser Team</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="/datenschutz">Datenschutz</a>
+        <a href="/impressum">Impressum</a>
       </SidebarMenu>
     </SidebarContainer>
   );
