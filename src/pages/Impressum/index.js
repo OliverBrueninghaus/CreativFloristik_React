@@ -6,7 +6,7 @@ import ImpressumHero from "../../components/ImpressumHero";
 function Impressum() {
   return (
     <BrowserRouter>
-      <ImpressumHero/>,
+      <ImpressumHero/>
     </BrowserRouter>
   );
 }

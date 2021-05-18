@@ -17,10 +17,10 @@ const ImpressumHero = () => {
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <HeroContent>
              <HeroItems>
-                 <HeroH1>Impressum</HeroH1>
+             <HeroH1>Impressum</HeroH1>
              </HeroItems>
             </HeroContent>
-            <p>hihi</p>
+          <h1>kokok‚</h1>
         </HeroContainer>
     );
 };

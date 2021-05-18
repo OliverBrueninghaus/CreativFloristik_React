@@ -6,7 +6,7 @@ import DatenschutzHero from "../../components/DatenschutzHero";
 function Datenschutz() {
   return (
     <BrowserRouter>
-      <DatenschutzHero/>,
+      <DatenschutzHero/>
     </BrowserRouter>
   );
 }

@@ -2,4 +2,3 @@
   command = "npm install" 
   publish = "/build" 
   base = "/"
-
