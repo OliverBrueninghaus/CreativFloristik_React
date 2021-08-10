@@ -16,7 +16,7 @@ function Home() {
       <Hero />
       <Sortiment heading="Unser Sortiment" data={sortimentData} />
       <Team heading="Unser Team" data={teamData} />
-      <Kontakt heading="Kontakt" data={kontaktData} />
+      <Kontakt heading="Kontakt/Öffnungszeiten" data={kontaktData} />
       <Footer />
     </Router>
   );

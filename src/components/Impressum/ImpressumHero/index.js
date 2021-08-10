@@ -1,6 +1,6 @@
 import React,{ useState } from 'react';
-import Navbar from '../Navbar';
-import Sidebar from '../Sidebar';
+import Navbar from '../../Navbar';
+import Sidebar from '../../Sidebar';
 import {HeroContainer, HeroContent, HeroH1, HeroItems} from './ImpressumHeroElements';
 
 const ImpressumHero = () => {
@@ -20,7 +20,6 @@ const ImpressumHero = () => {
              <HeroH1>Impressum</HeroH1>
              </HeroItems>
             </HeroContent>
-          <h1>kokok‚</h1>
         </HeroContainer>
     );
 };

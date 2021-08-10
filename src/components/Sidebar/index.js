@@ -27,7 +27,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           <a href="#team">Unser Team</a>
         </SidebarLink>
         <SidebarLink>
-          <a href="#kontakt">Kontakt</a>
+          <a href="#kontakt">Kontakt/Öffnungszeiten</a>
         </SidebarLink>
         <SidebarLink>
           <a href="/datenschutz">Datenschutz</a>
