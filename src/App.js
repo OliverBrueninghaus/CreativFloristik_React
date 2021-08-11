@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Datenschutz from "./pages/Datenschutz/index";
 import Impressum from "./pages/Impressum/index";
 import Home from "./pages/Home/index";
+import Gallerie from "./pages/Gallerie/index";
 
 import { GlobalStyle } from "./globalStyles";
 
@@ -14,6 +15,9 @@ function App() {
       <Switch>
         <Route exact path="/" >
           <Home/>
+        </Route>
+        <Route path="/gallerie">
+          <Gallerie/>
         </Route>
         <Route path="/datenschutz">
           <Datenschutz/>
